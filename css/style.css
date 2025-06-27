@@ -1,0 +1,341 @@
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+:root {
+      --text-color: #212121;
+      --green: #09A494;
+      --bg-color: #FFFFFF;
+}
+
+body {
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: 0%;
+
+      color: var(--text-color);
+      background-color: var(--bg-color);
+}
+
+h1 {
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 110%;
+      letter-spacing: 0%;
+      margin: 0;
+      margin-bottom: 20px;
+}
+
+h2 {
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 120%;
+      letter-spacing: 0%;
+
+      margin: 0px;
+      margin-bottom: 40px;
+}
+
+button {
+      padding: 0;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      background-color: transparent;
+      text-transform: lowercase;
+
+      border-width: 1px;
+      border-radius: 8px;
+      border-style: solid;
+      border-color: var(--green);
+
+      padding-top: 6px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+
+      gap: 10px;
+
+      color: var(--green);
+      background-color: var(--bg-color);
+}
+
+button:hover {
+      color: var(--bg-color);
+      background-color: var(--green);
+}
+
+button,
+a {
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+
+}
+
+footer {
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: 0%;
+
+      color: var(--bg-color);
+      background-color: var(--text-color);
+}
+
+.main-photo {
+      border-radius: 50%;
+}
+
+.subtitle {
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 120%;
+      letter-spacing: 0%;
+
+      color: var(--green);
+      margin: 0px;
+}
+
+.container {
+      min-width: 320px;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+}
+
+.main-nav a {
+      text-decoration: none;
+
+      gap: 10px;
+      padding-top: 10px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+
+      color: var(--text-color);
+
+}
+
+.main-nav a:hover {
+      color: var(--green);
+
+}
+
+.skill-list {
+      margin: 0px;
+      padding: 0px;
+      line-height: 100%;
+}
+
+.skill-list dt {
+      padding: 5px 0 5px 38px;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 30px;
+}
+
+.skill-level {
+      margin: 4px 0 20px;
+      padding: 2px;
+      font-size: 0;
+      border: 1px solid var(--green);
+      border-radius: 16px;
+}
+
+.skill-level div {
+      height: 14px;
+      background-color: var(--green);
+      border-radius: 8px;
+}
+
+.skill-item {
+      text-transform: lowercase;
+}
+
+.skill-item_c {
+      background-image: url("../img/skills/c.svg");
+}
+
+.skill-item_sys {
+      background-image: url("../img/skills/sys.svg");
+}
+
+.skill-item_cpp {
+      background-image: url("../img/skills/c++.svg");
+}
+
+
+
+.social-list {
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+      gap: 20px;
+      list-style-type: none;
+}
+
+.social-list-link {
+      display: block;
+
+      width: 50px;
+      height: 50px;
+      gap: 10px;
+
+      border-radius: 50%;
+      border-width: 1px;
+      border-color: var(--green);
+      background-color: var(--bg-color);
+}
+
+.social-list-link:hover {
+      background-color: var(--green);
+}
+
+.social-list-link_github {
+      background-image: url(../img/contacts-list.svg);
+}
+
+.social-list-link_telegram {
+      background-image: url(../img/contacts-list.svg);
+      background-position-x: 75%;
+}
+
+.social-list-link_vk {
+      background-image: url(../img/contacts-list.svg);
+      background-position-x: 100%;
+}
+
+.contact-list {
+      display: flex;
+
+      margin: 0px;
+      margin-bottom: 40px;
+
+      padding: 0px;
+      list-style-type: none;
+
+      gap: 40px;
+
+}
+
+.contact-list-link {
+      display: block;
+      text-decoration: none;
+      color: var(--text-color);
+
+
+      padding-left: 42px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+}
+
+.contact-list-link_mail {
+      background-image: url(../img/ContactsIcon-1.svg);
+      background-repeat: no-repeat;
+}
+
+.contact-list-link_phone {
+      background-image: url(../img/ContactsIcon.svg);
+      background-repeat: no-repeat;
+}
+
+.contact-list-link:hover {
+      color: var(--green);
+}
+
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+}
+
+.main-header {
+      display: flex;
+      padding-top: 60px;
+      padding-bottom: 120px;
+      gap: 40px;
+      align-items: center;
+}
+
+.main-nav{
+      display: flex;
+}
+
+.section-intro {
+      display: flex;
+      align-items: center;
+      gap: 70px;
+
+      justify-content: space-between;
+}
+
+.text-wrapper {
+      max-width: 800px;
+}
+
+p {
+      margin: 0;
+      margin-bottom: 15px;
+}
+
+p:last-child {
+      margin-bottom: 0;
+}
+
+.container-skills-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin: 0px;
+      margin-bottom: 40px
+}
+
+.container-skills-header *{
+      margin: 0px;
+}
+
+.container-skills-header-btns {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+}
+
+.main-footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+
+main section{
+      margin: 0px;
+      margin-bottom: 120px;
+}
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.work-feeling {
+    font-style: italic;
+    font-weight: 500; /* Средняя жирность 
+    text-shadow: 0 0 1px rgba(0,0,0,0.2); 
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница - Мальков Илья Александрович</title>
+    <meta name="description"
+        content="Это моя личная страница, Малькова Ильи — разработчика адресных устройств и магистранта МГТУ им. Н. Э. Баумана. Здесь представлена краткая информация о моём образовании, профессиональном опыте и навыках. Я здесь делюсь своим профессиональным увлечением разработкой электронных устройств на базе микросхем и разработкой программного обеспечения для них, а также даю возможность для связи по интересующим вопросам. Пишите 24 на 7. Отвечу в течении 30 рабочих дней.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <img src="img/main-logo.svg" alt="Основной логотип" width="60">
+            <nav class="main-nav">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#interests">Интересы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </header>
+        <main>
+            <section id="intro" class="section-intro">
+                <div class="intro-header">
+                    <h1>Мальков Илья</h1>
+                    <p class="subtitle">Разработчик адресных устройств</p>
+                </div>
+                <div class="photo-container">
+                    <img class="main-photo" src="img/user-photo.jpg" alt="Фото Ильи Малькова">
+                    <p class="work-feeling">Кем я ощущаю себя на работе.</p>
+                </div>
+            </section>
+            <section id="about" class="section-about">
+                <h2>Несколько слов обо мне</h2>
+                <div class="text-wrapper">
+                    <p>Категорически приветствую!</p>
+                    <p>В данный момент я обучаюсь в магистратуре МФ МГТУ им. Н. Э. Баумана по направлению «Информатика и вычислительная техника». А так же являюсь самым молодым сотрудником отдела системотехники компании АО НВП "Болид".</p>
+                    <p>В 2024 году защитил диплом бакалавра на тему «Разработка С2000-Спектрон-ОСТ-Exd Адресного расширителя (оповещатель световой) стандарта взрывозащиты Exd». Работа была высоко оценена комиссией.</p>
+                    <p>А так же являюсь сотрудником отдела системотехники компании АО НВП "Болид". Работа в компании позволила мне расширить мои компетенции и получить новые знания и навык припменения их на практике. В ходе обучения в рамках магистратуры моя дипломная работа и НИР так же связан с работой разработчиком адресных устройств.</p>
+                </div>
+            </section>
+            <section id="skills" class="section-skills">
+                <div class="container-skills-header">
+                    <h2>Мои навыки</h2>
+                    <div class="container-skills-header-btns">
+                        <p>Сортировать</p>
+                        <button>по названию</button>
+                        <button>по уровню</button>
+                    </div>
+                </div>
+                <dl class="skill-list">
+                    <dt class="skill-item skill-item_c">Си</dt>
+                    <dd class="skill-level">
+                        <div style="width: 80%;">80%</div>
+                    </dd>
+                    <dt class="skill-item skill-item_cpp">C++</dt>
+                    <dd class="skill-level">
+                        <div style="width: 50%;">50%</div>
+                    </dd>
+                    <dt class="skill-item skill-item_sys">Системотехника</dt>
+                    <dd class="skill-level">
+                        <div style="width: 60%;">60%</div>
+                    </dd>
+                </dl>
+            </section>
+            <section id="interests">
+                <h2>Мои интересы</h2>
+                <div class="text-wrapper">
+                    <p>Сейчас я сосредоточен на изучении системотехники и написании программного обеспечения для адресных устройств.</p>
+                    <p>Но помимо учёбы и работы я также люблю отдыхать и высыпаться на выходных.</p>
+                </div>
+            </section>
+            <section id="contacts">
+                <h2>Мои контакты</h2>
+                <div class="contact-list">
+                    <a class="contact-list-link contact-list-link_phone" href="tel:+77777777777">+7 777 777-77-77</a>
+                    <a class="contact-list-link contact-list-link_mail" href="mailto:malkov@mail.ru">malkov@mail.ru</a>
+                </div>
+                <div class="social-list">
+                    <a class="social-list-link social-list-link_github" target="_blank" href="https://github.com/bampo228">
+                        <span class="visually-hidden">GitHub</span>
+                    </a>
+                    <a class="social-list-link social-list-link_telegram" target="_blank" href="https://t.me/wyylrix">
+                        <span class="visually-hidden">Телеграм</span>
+                    </a>
+                    <a class="social-list-link social-list-link_vk" target="_blank" href="https://vk.com/007">
+                        <span class="visually-hidden">ВК</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <div class="container">
+                <p>© 2025 Мальков Илья</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
