@@ -38,7 +38,7 @@ h2 {
       line-height: 120%;
       letter-spacing: 0%;
 
-      margin: 0px;
+      margin: 0;
       margin-bottom: 40px;
 }
 
@@ -78,10 +78,9 @@ a {
       font-size: 20px;
       line-height: 100%;
       letter-spacing: 0%;
-
 }
 
-footer {
+.main-footer {
       font-family: "Open Sans", "Arial", sans-serif;
       font-weight: 400;
       font-size: 20px;
@@ -90,6 +89,8 @@ footer {
 
       color: var(--bg-color);
       background-color: var(--text-color);
+      padding-top: 50px;
+      padding-bottom: 50px;
 }
 
 .main-photo {
@@ -103,7 +104,7 @@ footer {
       letter-spacing: 0%;
 
       color: var(--green);
-      margin: 0px;
+      margin: 0;
 }
 
 .container {
@@ -123,17 +124,15 @@ footer {
       padding-left: 15px;
 
       color: var(--text-color);
-
 }
 
 .main-nav a:hover {
       color: var(--green);
-
 }
 
 .skill-list {
-      margin: 0px;
-      padding: 0px;
+      margin: 0;
+      padding: 0;
       line-height: 100%;
 }
 
@@ -174,12 +173,10 @@ footer {
       background-image: url("../img/skills/c++.svg");
 }
 
-
-
 .social-list {
       display: flex;
-      margin: 0px;
-      padding: 0px;
+      margin: 0;
+      padding: 0;
       gap: 20px;
       list-style-type: none;
 }
@@ -218,14 +215,13 @@ footer {
 .contact-list {
       display: flex;
 
-      margin: 0px;
+      margin: 0;
       margin-bottom: 40px;
 
-      padding: 0px;
+      padding: 0;
       list-style-type: none;
 
       gap: 40px;
-
 }
 
 .contact-list-link {
@@ -233,11 +229,9 @@ footer {
       text-decoration: none;
       color: var(--text-color);
 
-
       padding-left: 42px;
       padding-top: 5px;
       padding-bottom: 5px;
-
 }
 
 .contact-list-link_mail {
@@ -275,7 +269,7 @@ footer {
       align-items: center;
 }
 
-.main-nav{
+.main-nav {
       display: flex;
 }
 
@@ -283,7 +277,6 @@ footer {
       display: flex;
       align-items: center;
       gap: 70px;
-
       justify-content: space-between;
 }
 
@@ -304,13 +297,12 @@ p:last-child {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
-      margin: 0px;
+      margin: 0;
       margin-bottom: 40px
 }
 
-.container-skills-header *{
-      margin: 0px;
+.container-skills-header * {
+      margin: 0;
 }
 
 .container-skills-header-btns {
@@ -319,23 +311,20 @@ p:last-child {
       align-items: center;
 }
 
-.main-footer {
-      padding-top: 50px;
-      padding-bottom: 50px;
-}
-
-main section{
-      margin: 0px;
+main section {
+      margin: 0;
       margin-bottom: 120px;
 }
+
 .photo-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
 }
+
 .work-feeling {
-    font-style: italic;
-    font-weight: 500; /* Средняя жирность 
-    text-shadow: 0 0 1px rgba(0,0,0,0.2); 
+      font-style: italic;
+      font-weight: 500;
+      text-shadow: 0 0 1px rgba(0,0,0,0.2);
 }
