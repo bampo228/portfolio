@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Си",
+        "level": 80,
+        "iconName": "c.svg"
+    },
+    {
+        "name": "C++",
+        "level": 50,
+        "iconName": "c++.svg"
+    },
+    {
+        "name": "Системотехника",
+        "level": 60,
+        "iconName": "schem.svg"
+    }
+]
